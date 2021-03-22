@@ -1,6 +1,6 @@
 # Key points from chapter 2 of [Django for Professionals](https://djangoforprofessionals.com/):
 
-- `docker-compose up -d*` -> detached mode, that runs containers in the background
+- `docker-compose up -d` -> detached mode, that runs containers in the background
 - `docker-compose down` -> to stop the running Docker container
 - `docker-compose logs` -> to see the current output and debug any issues
 - When working within Docker, we must preface traditional commands with `docker-compose exec [service]`; e.g. docker-compose exec web python manage.py createsuperuser
